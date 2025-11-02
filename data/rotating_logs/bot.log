@@ -1,0 +1,442 @@
+2025-10-31 08:30:20,343 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 08:30:23,102 — INFO — bot — Cogs loaded.
+2025-10-31 08:30:23,530 — INFO — bot — Command tree synced.
+2025-10-31 08:39:26,191 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 08:39:28,330 — ERROR — bot — Failed to load cogs: Extension 'cogs.admin' raised an error: AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+Traceback (most recent call last):
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 95, in <module>
+    class AdminCog(commands.Cog):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 221, in AdminCog
+    @app_commands.checks.is_owner()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\bot.py", line 28, in on_ready
+    await bot.load_extension("cogs.admin")
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+2025-10-31 08:39:28,790 — INFO — bot — Command tree synced.
+2025-10-31 08:41:23,271 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 08:41:25,684 — ERROR — bot — Failed to load cogs: Extension 'cogs.admin' raised an error: AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+Traceback (most recent call last):
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 95, in <module>
+    class AdminCog(commands.Cog):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 221, in AdminCog
+    @app_commands.checks.is_owner()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\bot.py", line 28, in on_ready
+    await bot.load_extension("cogs.admin")
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+2025-10-31 08:41:26,409 — INFO — bot — Command tree synced.
+2025-10-31 08:45:11,203 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 08:45:12,786 — ERROR — bot — Failed to load cogs: Extension 'cogs.admin' raised an error: AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+Traceback (most recent call last):
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 114, in <module>
+    class AdminCog(commands.Cog):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 242, in AdminCog
+    @app_commands.checks.is_owner()
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\bot.py", line 28, in on_ready
+    await bot.load_extension("cogs.admin")
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: AttributeError: module 'discord.app_commands.checks' has no attribute 'is_owner'
+2025-10-31 08:45:13,211 — INFO — bot — Command tree synced.
+2025-10-31 08:47:21,692 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 08:47:23,175 — INFO — bot — Cogs loaded.
+2025-10-31 08:47:23,745 — INFO — bot — Command tree synced.
+2025-10-31 08:47:55,831 — INFO — admin — Owner synced guild 1371483878371627139 commands: 0 commands
+2025-10-31 08:48:05,550 — INFO — admin — Owner synced global commands: 5 commands
+2025-10-31 08:55:40,922 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 08:55:42,542 — INFO — bot — Cogs loaded.
+2025-10-31 08:55:43,018 — INFO — bot — Command tree synced.
+2025-10-31 08:56:08,858 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 08:56:09,966 — INFO — bot — Cogs loaded.
+2025-10-31 08:56:43,034 — INFO — bot — Command tree synced.
+2025-10-31 08:57:14,672 — INFO — admin — Owner synced global commands: 5 commands
+2025-10-31 09:00:46,249 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:00:47,697 — INFO — bot — Cogs loaded.
+2025-10-31 09:00:48,316 — INFO — bot — Command tree synced.
+2025-10-31 09:01:48,507 — INFO — admin — Owner synced global commands: 5 commands
+2025-10-31 09:05:32,603 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:05:34,048 — INFO — bot — Cogs loaded.
+2025-10-31 09:05:35,871 — INFO — bot — Command tree synced.
+2025-10-31 09:06:18,394 — INFO — flip — Flip inserted (with parts) for guild 1371483878371627139 user 947795908119109652: [{'id': '2da6f7d6-5382-4c10-bd4b-63bccf4fb80f', 'guild_id': 1371483878371627139, 'user_id': 947795908119109652, 'item': 'cg', 'photo_url': None, 'notes': None, 'purchase_price': 22.5, 'parts_price': 10.5, 'sales_price': 55.9, 'total_cost': 33.0, 'profit': 22.9, 'status': 'pending', 'submitted_at': '2025-10-31T04:06:18.253148+00:00', 'handled_by': None, 'handled_at': None}]
+2025-10-31 09:06:41,006 — ERROR — supabase — Failed to fetch pending flips: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 37, in get_pending_flips
+    .order("submitted_at", {"ascending": True})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 09:14:43,268 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:14:44,732 — INFO — bot — Cogs loaded.
+2025-10-31 09:14:45,180 — INFO — bot — Command tree synced.
+2025-10-31 09:15:44,904 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:15:46,264 — INFO — bot — Cogs loaded.
+2025-10-31 09:15:46,714 — INFO — bot — Command tree synced.
+2025-10-31 09:16:47,229 — INFO — admin — Owner synced global commands: 4 commands
+2025-10-31 09:19:17,008 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:19:18,328 — INFO — bot — Cogs loaded.
+2025-10-31 09:19:18,799 — INFO — bot — Command tree synced.
+2025-10-31 09:25:50,813 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:25:52,729 — INFO — bot — Cogs loaded.
+2025-10-31 09:25:53,337 — INFO — bot — Command tree synced.
+2025-10-31 09:31:30,365 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:31:32,430 — INFO — bot — Cogs loaded.
+2025-10-31 09:31:32,895 — INFO — bot — Command tree synced.
+2025-10-31 09:32:33,524 — INFO — admin — Owner synced global commands: 4 commands
+2025-10-31 09:34:19,189 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:34:20,475 — INFO — bot — Cogs loaded.
+2025-10-31 09:34:21,089 — INFO — bot — Command tree synced.
+2025-10-31 09:38:26,455 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:38:28,008 — INFO — bot — Cogs loaded.
+2025-10-31 09:38:28,474 — INFO — bot — Command tree synced.
+2025-10-31 09:41:52,292 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:41:53,652 — INFO — bot — Cogs loaded.
+2025-10-31 09:41:58,977 — INFO — bot — Command tree synced.
+2025-10-31 09:42:13,215 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:42:14,623 — INFO — bot — Cogs loaded.
+2025-10-31 09:42:59,120 — INFO — bot — Command tree synced.
+2025-10-31 09:43:38,746 — INFO — admin — Owner synced global commands: 4 commands
+2025-10-31 09:44:04,980 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:44:06,552 — INFO — bot — Cogs loaded.
+2025-10-31 09:44:38,278 — INFO — bot — Command tree synced.
+2025-10-31 09:44:50,893 — INFO — admin — Owner synced global commands: 4 commands
+2025-10-31 09:51:53,944 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:51:55,586 — INFO — bot — Cogs loaded.
+2025-10-31 09:51:56,238 — INFO — bot — Command tree synced.
+2025-10-31 09:55:36,090 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 09:55:37,604 — INFO — bot — Cogs loaded.
+2025-10-31 09:55:38,244 — INFO — bot — Command tree synced.
+2025-10-31 09:56:49,966 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 09:56:50,783 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 09:59:50,796 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 09:59:51,647 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:04:33,168 — INFO — admin — Owner synced guild 1371483878371627139 commands: 0 commands
+2025-10-31 10:04:39,892 — INFO — admin — Owner synced global commands: 4 commands
+2025-10-31 10:11:01,236 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 10:11:03,114 — INFO — bot — Cogs loaded.
+2025-10-31 10:11:03,562 — INFO — bot — Command tree synced.
+2025-10-31 10:14:00,367 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:14:36,352 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:14:37,576 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:14:38,812 — WARNING — admin — Could not fetch/edit leaderboard message: 404 Not Found (error code: 10008): Unknown Message
+2025-10-31 10:14:39,678 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:23:36,979 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 10:23:38,702 — INFO — bot — Cogs loaded.
+2025-10-31 10:23:39,373 — INFO — bot — Command tree synced.
+2025-10-31 10:24:41,239 — WARNING — flip — insert_flip did not return an id: data=[{'id': '19788a89-6d6b-416d-b556-2b2b5a7f062b', 'guild_id': 1371483878371627139, 'user_id': 947795908119109652, 'item': 'test 1', 'photo_url': None, 'notes': None, 'purchase_price': 10.5, 'parts_price': 11.5, 'sales_price': 554.0, 'total_cost': 22.0, 'profit': 532.0, 'status': 'pending', 'submitted_at': '2025-10-31T05:24:41.115892+00:00', 'handled_by': None, 'handled_at': None}] count=None
+2025-10-31 10:25:28,245 — ERROR — flip — Attempted to approve flip without DB id: {'guild_id': 1371483878371627139, 'user_id': 947795908119109652, 'item': 'test 1', 'photo_url': None, 'notes': None, 'purchase_price': 10.5, 'parts_price': 11.5, 'sales_price': 554.0, 'total_cost': 22.0, 'profit': 532.0, 'status': 'pending'}
+2025-10-31 10:33:42,044 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 10:33:43,870 — INFO — bot — Cogs loaded.
+2025-10-31 10:33:44,565 — INFO — bot — Command tree synced.
+2025-10-31 10:36:28,723 — ERROR — supabase — Failed to update flip: {'message': "Could not find the 'member_message_id' column of 'flips' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 51, in update_flip
+    res = supabase.table("flips").update(changes).eq("id", flip_id).execute()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'member_message_id' column of 'flips' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 10:36:28,731 — ERROR — flip — Failed to persist member_message_id for submitted flip
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\flip.py", line 474, in on_submit
+    update_flip(inserted_id, {"member_message_id": member_message_id})
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 51, in update_flip
+    res = supabase.table("flips").update(changes).eq("id", flip_id).execute()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'member_message_id' column of 'flips' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 10:36:38,215 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:43:08,966 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 10:43:11,542 — INFO — bot — Cogs loaded.
+2025-10-31 10:43:12,014 — INFO — bot — Command tree synced.
+2025-10-31 10:44:13,806 — ERROR — supabase — Failed to update flip: {'message': "Could not find the 'member_message_id' column of 'flips' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 51, in update_flip
+    res = supabase.table("flips").update(changes).eq("id", flip_id).execute()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'member_message_id' column of 'flips' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 10:44:13,817 — ERROR — flip — Failed to persist member_message_id for submitted flip
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\flip.py", line 474, in on_submit
+    update_flip(inserted_id, {"member_message_id": member_message_id})
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 51, in update_flip
+    res = supabase.table("flips").update(changes).eq("id", flip_id).execute()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'member_message_id' column of 'flips' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 10:44:30,507 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 108, in get_leaderboard_top
+    .order("total_profit", {"ascending": False})
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:53:00,949 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 10:53:02,679 — INFO — bot — Cogs loaded.
+2025-10-31 10:53:03,204 — INFO — bot — Command tree synced.
+2025-10-31 10:53:45,486 — ERROR — supabase — Failed to get leaderboard: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 121, in get_leaderboard_top
+    .order("total_profit", False)  # ascending = False -> descending order
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseSelectRequestBuilder.order() takes 2 positional arguments but 3 were given
+2025-10-31 10:57:19,665 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 10:57:21,928 — INFO — bot — Cogs loaded.
+2025-10-31 10:57:22,426 — INFO — bot — Command tree synced.
+2025-10-31 11:21:47,366 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:21:49,255 — INFO — bot — Cogs loaded.
+2025-10-31 11:21:49,759 — INFO — bot — Command tree synced.
+2025-10-31 11:22:57,861 — WARNING — admin — Could not fetch/edit stored leaderboard message: 404 Not Found (error code: 10008): Unknown Message
+2025-10-31 11:22:59,805 — ERROR — admin — Failed to upsert leaderboard_summary_message_id into guild_settings
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 245, in send_leaderboard_summary
+    ).execute()
+      ^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'leaderboard_summary_message_id' column of 'guild_settings' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 11:24:48,281 — ERROR — admin — Failed to upsert leaderboard_summary_message_id into guild_settings
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 245, in send_leaderboard_summary
+    ).execute()
+      ^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'leaderboard_summary_message_id' column of 'guild_settings' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 11:27:39,413 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:27:41,216 — INFO — bot — Cogs loaded.
+2025-10-31 11:27:41,662 — INFO — bot — Command tree synced.
+2025-10-31 11:28:27,404 — WARNING — admin — Could not fetch/edit stored leaderboard message: 404 Not Found (error code: 10008): Unknown Message
+2025-10-31 11:30:29,316 — WARNING — admin — Could not fetch/edit stored leaderboard message: 404 Not Found (error code: 10008): Unknown Message
+2025-10-31 11:32:11,829 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:32:13,349 — INFO — bot — Cogs loaded.
+2025-10-31 11:32:13,832 — INFO — bot — Command tree synced.
+2025-10-31 11:32:48,498 — ERROR — admin — Failed to upsert leaderboard_summary_message_id into guild_settings
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 245, in send_leaderboard_summary
+    ).execute()
+      ^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'leaderboard_summary_message_id' column of 'guild_settings' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 11:33:41,694 — ERROR — admin — Failed to upsert leaderboard_summary_message_id into guild_settings
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 245, in send_leaderboard_summary
+    ).execute()
+      ^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the 'leaderboard_summary_message_id' column of 'guild_settings' in the schema cache", 'code': 'PGRST204', 'hint': None, 'details': None}
+2025-10-31 11:37:57,045 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:37:58,556 — INFO — bot — Cogs loaded.
+2025-10-31 11:37:58,936 — INFO — bot — Command tree synced.
+2025-10-31 11:39:25,402 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:39:27,460 — INFO — bot — Cogs loaded.
+2025-10-31 11:39:27,958 — INFO — bot — Command tree synced.
+2025-10-31 11:41:50,761 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:41:52,047 — INFO — bot — Cogs loaded.
+2025-10-31 11:41:52,456 — INFO — bot — Command tree synced.
+2025-10-31 11:46:59,141 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:47:00,355 — INFO — bot — Cogs loaded.
+2025-10-31 11:47:00,753 — INFO — bot — Command tree synced.
+2025-10-31 11:48:54,825 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:48:56,229 — INFO — bot — Cogs loaded.
+2025-10-31 11:48:58,170 — INFO — bot — Command tree synced.
+2025-10-31 11:49:46,340 — WARNING — admin — Stored leaderboard summary message was not found (deleted). Will send a new one.
+2025-10-31 11:56:12,592 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:56:14,021 — ERROR — bot — Failed to load cogs: Extension 'cogs.admin' raised an error: IndentationError: unexpected unindent (admin.py, line 502)
+Traceback (most recent call last):
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 951, in _load_from_module_spec
+    spec.loader.exec_module(lib)  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\admin.py", line 502
+    @app_commands.default_permissions(administrator=True)
+IndentationError: unexpected unindent
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\bot.py", line 28, in on_ready
+    await bot.load_extension("cogs.admin")
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 1029, in load_extension
+    await self._load_from_module_spec(spec, name)
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\commands\bot.py", line 954, in _load_from_module_spec
+    raise errors.ExtensionFailed(key, e) from e
+discord.ext.commands.errors.ExtensionFailed: Extension 'cogs.admin' raised an error: IndentationError: unexpected unindent (admin.py, line 502)
+2025-10-31 11:56:14,622 — INFO — bot — Command tree synced.
+2025-10-31 11:56:49,526 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 11:56:50,758 — INFO — bot — Cogs loaded.
+2025-10-31 11:56:51,220 — INFO — bot — Command tree synced.
+2025-10-31 12:07:59,249 — INFO — admin — Globally synced 4 commands
+2025-10-31 12:08:35,905 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 12:08:37,547 — INFO — bot — Cogs loaded.
+2025-10-31 12:08:38,027 — INFO — bot — Command tree synced.
+2025-10-31 12:09:39,026 — INFO — admin — Globally synced 5 commands
+2025-10-31 12:28:31,432 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 12:28:33,541 — INFO — bot — Cogs loaded.
+2025-10-31 12:28:34,014 — INFO — bot — Command tree synced.
+2025-10-31 12:34:45,426 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 12:34:47,001 — INFO — bot — Cogs loaded.
+2025-10-31 12:34:47,544 — INFO — bot — Command tree synced.
+2025-10-31 12:35:48,314 — INFO — admin — Globally synced 6 commands
+2025-10-31 12:37:58,296 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 12:37:59,942 — INFO — bot — Cogs loaded.
+2025-10-31 12:38:00,429 — INFO — bot — Command tree synced.
+2025-10-31 12:40:58,360 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 12:41:00,065 — INFO — bot — Cogs loaded.
+2025-10-31 12:41:00,606 — INFO — bot — Command tree synced.
+2025-10-31 14:40:03,149 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 14:40:05,131 — INFO — bot — Cogs loaded.
+2025-10-31 14:40:05,650 — INFO — bot — Command tree synced.
+2025-10-31 14:54:25,818 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 14:54:27,548 — INFO — bot — Cogs loaded.
+2025-10-31 14:54:28,227 — INFO — bot — Command tree synced.
+2025-10-31 15:03:03,862 — WARNING — admin — Could not fetch/edit stored leaderboard message: 404 Not Found (error code: 10008): Unknown Message
+2025-10-31 15:03:28,126 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 15:03:29,996 — INFO — bot — Cogs loaded.
+2025-10-31 15:03:30,366 — INFO — bot — Command tree synced.
+2025-10-31 15:04:42,469 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 15:04:44,244 — INFO — bot — Cogs loaded.
+2025-10-31 15:04:45,023 — INFO — bot — Command tree synced.
+2025-10-31 15:05:31,222 — WARNING — admin — Stored leaderboard summary message was not found (deleted). Will send a new one.
+2025-10-31 15:29:37,770 — INFO — admin — Globally synced 6 commands
+2025-10-31 19:15:32,224 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 19:15:35,880 — INFO — bot — Cogs loaded.
+2025-10-31 19:15:37,076 — INFO — bot — Command tree synced.
+2025-10-31 19:43:56,773 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 19:43:58,417 — INFO — bot — Cogs loaded.
+2025-10-31 19:43:58,976 — INFO — bot — Command tree synced.
+2025-10-31 21:55:42,783 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 21:55:44,935 — INFO — bot — Cogs loaded.
+2025-10-31 21:55:45,964 — INFO — bot — Command tree synced.
+2025-10-31 21:56:46,446 — INFO — admin — Globally synced 6 commands
+2025-10-31 22:19:40,083 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 22:19:41,988 — INFO — bot — Cogs loaded.
+2025-10-31 22:19:42,579 — INFO — bot — Command tree synced.
+2025-10-31 22:27:14,051 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-10-31 22:27:15,889 — INFO — bot — Cogs loaded.
+2025-10-31 22:27:16,400 — INFO — bot — Command tree synced.
+2025-10-31 22:29:50,840 — INFO — admin — Globally synced 6 commands
+2025-11-01 09:28:41,897 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-11-01 09:28:43,817 — INFO — bot — Cogs loaded.
+2025-11-01 09:28:44,255 — INFO — bot — Command tree synced.
+2025-11-01 09:41:44,903 — ERROR — supabase — Failed to add user profit: {'message': 'duplicate key value violates unique constraint "users_pkey"', 'code': '23505', 'hint': None, 'details': 'Key (id)=(947795908119109652) already exists.'}
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 102, in add_user_profit
+    ).execute()
+      ^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': 'duplicate key value violates unique constraint "users_pkey"', 'code': '23505', 'hint': None, 'details': 'Key (id)=(947795908119109652) already exists.'}
+2025-11-01 09:41:44,946 — ERROR — flip — Error approving flip: {'message': 'duplicate key value violates unique constraint "users_pkey"', 'code': '23505', 'hint': None, 'details': 'Key (id)=(947795908119109652) already exists.'}
+Traceback (most recent call last):
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\cogs\flip.py", line 767, in approve
+    add_user_profit(
+  File "D:\mn\mdev\mdevvx bots\flip-submitter\db\supabase.py", line 102, in add_user_profit
+    ).execute()
+      ^^^^^^^^^
+  File "C:\Users\Muhammad Nadeem\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': 'duplicate key value violates unique constraint "users_pkey"', 'code': '23505', 'hint': None, 'details': 'Key (id)=(947795908119109652) already exists.'}
+2025-11-01 09:52:16,319 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-11-01 09:52:17,714 — INFO — bot — Cogs loaded.
+2025-11-01 09:52:18,402 — INFO — bot — Command tree synced.
+2025-11-01 09:58:14,385 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-11-01 09:58:16,690 — INFO — bot — Cogs loaded.
+2025-11-01 09:58:17,130 — INFO — bot — Command tree synced.
+2025-11-01 09:59:06,152 — WARNING — admin — Stored leaderboard summary message was not found (deleted). Will send a new one.
+2025-11-01 10:03:25,931 — INFO — bot — Logged in as Boat Bot#2667 (id: 1433511944974766090)
+2025-11-01 10:03:27,133 — INFO — bot — Cogs loaded.
+2025-11-01 10:03:27,695 — INFO — bot — Command tree synced.
+2025-11-01 10:05:09,186 — INFO — admin — Globally synced 6 commands

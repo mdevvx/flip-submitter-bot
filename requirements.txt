@@ -1,0 +1,8 @@
+discord.py
+python-dotenv
+supabase
+supabase_auth
+supabase_functions
+asyncio
+aiohttp
+psycopg2-binary
