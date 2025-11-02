@@ -26,6 +26,11 @@
 * `member_flips_channel` → Where user flips are posted for approval.
 * `leaderboard_channel` → Where the leaderboard is displayed.
 
+#### `/setlogchannel`
+
+> Set the log channel where bot activities (approvals, denials, errors) are recorded.
+> Useful for moderation and audit tracking.
+
 #### `/pingdb`
 
 > Tests the connection between the bot and Supabase database.
