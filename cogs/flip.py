@@ -2,32 +2,16 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 from logger import get_logger
-from utils.helpers import build_flip_embed
+from utils.helpers import build_flip_embed, send_log_message, clean_number
 from db.supabase import (
     ensure_guild_settings,
     insert_flip,
     update_flip,
     add_user_profit,
-    get_leaderboard_top,
     supabase,
 )
 
 logger = get_logger("flip")
-
-
-async def send_log_message(guild: discord.Guild, message: str):
-    """Send a message to the configured log channel if available."""
-    try:
-        settings = ensure_guild_settings(guild.id)
-        log_chan_id = settings.get("log_channel_id")
-        if not log_chan_id:
-            return  # no log channel set
-        log_channel = guild.get_channel(log_chan_id)
-        if not log_channel:
-            return
-        await log_channel.send(message)
-    except Exception as e:
-        logger.warning(f"Failed to send log message: {e}")
 
 
 class ApproveRejectView(discord.ui.View):
@@ -325,18 +309,21 @@ class FlipModal(discord.ui.Modal, title="Submit a flip"):
         # Defer as ephemeral to avoid Discord timing out for slow DB/network
         await interaction.response.defer(ephemeral=True)
 
-        try:
-            pp = float(self.purchase_price.value.strip() or 0.0)
-        except Exception:
-            pp = 0.0
-        try:
-            parts = float(self.parts_price.value.strip() or 0.0)
-        except Exception:
-            parts = 0.0
-        try:
-            sp = float(self.sales_price.value.strip() or 0.0)
-        except Exception:
-            sp = 0.0
+        # try:
+        #     pp = float(self.purchase_price.value.strip() or 0.0)
+        # except Exception:
+        #     pp = 0.0
+        # try:
+        #     parts = float(self.parts_price.value.strip() or 0.0)
+        # except Exception:
+        #     parts = 0.0
+        # try:
+        #     sp = float(self.sales_price.value.strip() or 0.0)
+        # except Exception:
+        #     sp = 0.0
+        pp = clean_number(self.purchase_price.value)
+        parts = clean_number(self.parts_price.value)
+        sp = clean_number(self.sales_price.value)
 
         total_cost = pp + parts
         profit = sp - total_cost
@@ -466,9 +453,7 @@ class FlipCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @app_commands.command(
-        name="flip", description="Submit a flip for approval (single modal)"
-    )
+    @app_commands.command(name="flip", description="Submit a flip for approval")
     async def flip(self, interaction: discord.Interaction):
         from db.supabase import ensure_guild_settings
 

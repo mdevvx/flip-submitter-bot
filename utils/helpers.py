@@ -1,5 +1,11 @@
+import discord
 from discord import Embed
-import math
+from logger import get_logger
+from db.supabase import (
+    ensure_guild_settings,
+)
+
+logger = get_logger("flip")
 
 
 def build_flip_embed(flip_row: dict, author_name: str):
@@ -69,3 +75,26 @@ def build_leaderboard_embed(rows):
     )
 
     return embed
+
+
+async def send_log_message(guild: discord.Guild, message: str):
+    """Send a message to the configured log channel if available."""
+    try:
+        settings = ensure_guild_settings(guild.id)
+        log_chan_id = settings.get("log_channel_id")
+        if not log_chan_id:
+            return  # no log channel set
+        log_channel = guild.get_channel(log_chan_id)
+        if not log_channel:
+            return
+        await log_channel.send(message)
+    except Exception as e:
+        logger.warning(f"Failed to send log message: {e}")
+
+
+def clean_number(value: str) -> float:
+    """Remove $ and commas safely before converting to float."""
+    try:
+        return float(value.replace("$", "").replace(",", "").strip() or 0.0)
+    except Exception:
+        return 0.0
